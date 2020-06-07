@@ -5,7 +5,7 @@ import requests
 import random
 import time
 
-API_KEYS = ["AIzaSyAgzszK84rYUM0ErWSdtiV-tyNGqGB3xFg","AIzaSyA3uNDJDl6WH0z8t9uB9pdmbIBpf54PVIE","AIzaSyCcLbOx4L6iTcS4NnvviLa1TfE7I1mnccU","AIzaSyAOpWL4ijH4vjO6sOF5ORIzohy_o2shL9s","AIzaSyCp8TYUqMn5LMgeHDvBcNcd2Y3pGbgVTAg"]
+API_KEYS = ["","","","",""]
 
 data={"duration":[],"dimension":[],"projection":[],"V_id":[],"caption":[],"license":[],"categoryId":[],"channelId":[],"description":[],"publishedAt":[],"tags":[],"thumbnail":[],"commentCount":[],"dislikeCount":[],"likeCount":[],"viewCount":[],"embeddable":[],"licencedContent":[],"privacyStatus":[],"publishedAt":[],"title":[],"definition":[],"defaultAudioLanguage":[]}
 
