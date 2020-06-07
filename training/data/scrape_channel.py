@@ -4,7 +4,7 @@ import pickle
 import requests
 import random
 
-API_KEYS = ["AIzaSyAgzszK84rYUM0ErWSdtiV-tyNGqGB3xFg","AIzaSyA3uNDJDl6WH0z8t9uB9pdmbIBpf54PVIE","AIzaSyCcLbOx4L6iTcS4NnvviLa1TfE7I1mnccU","AIzaSyAOpWL4ijH4vjO6sOF5ORIzohy_o2shL9s","AIzaSyCp8TYUqMn5LMgeHDvBcNcd2Y3pGbgVTAg"]
+API_KEYS = ["","","","",""]
 
 channel_data={"channelTitle":[],"ChannelDescription":[],"ChannelPublishedAt":[],"channel_videoCount":[],"channel_commentCount":[],"channel_subscriberCount":[],"channel_ViewCount":[]}
 # channel_data={"social_links":[],"twitter_url":[]}
