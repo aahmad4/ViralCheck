@@ -1,12 +1,24 @@
 # ViralCheck
 
-Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features.
+This project was done for the NotUniversity Hacks Hackathon, a competition geared towards High School students and under. Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app
 
 ## An Overview Of The Completed Product
 
 Our project consists of a web-app, whose main feature is predicting the number of likes a YouTube video will get, based on past and current data such as the subscriber count, title of the video, and average views. The user has to simply enter the URL of the video, and our app will automatically extract the required data, using the Youtube API v3. The other features of our web-app include a forums page to allow users with accounts to post questions, ideas, and answers, as well as a thumbnail gallery. We also built a login system, so that users can create accounts and post in the forums. On top of this, we have a special section to allow logged in users to adjust their credentials if they wish and even customize their own profile pictures.
 
+## Features
 
+* User authentication
+   * Login system
+   * Registration system
+   * Cryptography
+   * Automated forgot password email responses
+* Machine Learning
+   * Uses models built with TensorFlow, Keras, and Scikit Learn to detect how many likes a YouTube video will get
+   * Currently working on a thumbnail detector
+* Databases
+   * Uses a Postgres database to store user accounts, allow users to create new posts to forumns, and share new thumbnail and video          content ideas
+   
 ## How we built it
 
 ##### The Machine Learning Model
@@ -16,10 +28,10 @@ The model takes data from the video and the youtube channel as input (such as su
 We wanted to make our app such that the user can predict the number of likes using only the URL of the video. For doing this, we first extracted the unique video-id from the URL. Then, we used this id to get the rest of the data using the Youtube API v3. We then fed this data into our ML model.
 
 ##### Front-end
-The front-end of the web app itself is built with Flask, using templates with html and css. We used the library bootstrap and semantic UI for responsiveness and design. We are proud of the counting up animation of the likes prediction, kudos to Jeremy Nguyen. 
+The front-end of the web app itself is built with Flask, using templates with html and css. We used the library bootstrap and semantic UI for responsiveness and design. We are proud of the counting up animation of the likes prediction. 
 
 ##### Back-end and hosting
-We used flask and mongo for the back-end as well as encrypting libraries like bcrypt to secure users passwords. We're hosting on microsoft azure. 
+We used flask and postgres for the back-end as well as encrypting libraries like bcrypt to secure users passwords. We're hosting on microsoft azure. 
 
 ##### Account manager and forums
 Users are able to adjust their account details and profile picture for more customization.
