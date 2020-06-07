@@ -16,7 +16,7 @@ columns = ['categoryId', 'channel_subscriberCount', 'definition', 'likeCount', '
 def get_url(Video_urls):
     v_id =  ",".join(Video_urls)
     
-    API_KEY = "AIzaSyDnKyUe3L4euMbIq8a5gVLRHhjhyEC0G_U"
+    API_KEY = ""
     url = "https://www.googleapis.com/youtube/v3/videos?part=status,snippet,topicDetails,contentDetails,statistics&id="+v_id+"&key="+API_KEY
     return url
 
