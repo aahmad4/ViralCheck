@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block content %}
+<div id="contentmargin">
+  <div class="image">
+    <div class="card" style="padding: 30px;">
+      <h1 id="heading">Let's See How Many Likes Your Video Can Get!</h1>
+      <br>
+      <form class="input-group mb-3" action="/user" id="form">
+        <input type="text" class="form-control" placeholder="YouTube URL" name="url" style="width: 40rem;"></input>
+        <div class="input-group-append">
+          <input class="btn btn-success" type="submit" value="enter"></input>
+        </div>
+      </form>
+    </div>
+    <footer>
+      Made with ❤️ for
+      <a href="https://organize.mlh.io/participants/events/3480-notuniversity-hacks" target="_blank" rel="noopener noreferrer"> NotUniversity Hacks</a> | See code <a href="#" target="_blank" rel="noopener noreferrer"> here </a>
+    </footer>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block content %}
+<link rel="shortcut icon" href=>
+<div class="image">
+  <div class="container card" style="padding: 30px;">
+    <h1 id="heading">Predict How Many Likes Your Video Will Get!</h1>
+    <form class="input-group mb-3" id="form" method='POST' action='/'>
+      <input type="text" class="form-control" placeholder="YouTube URL" name="url"></input>
+      <div class="input-group-append">
+        <input class="btn btn-success" type="submit" value="enter"></input>
+      </div>
+    </form>
+    <div>
+      <h1 style="text-align:center; margin-top: 20px;">
+        <span class="countupthis" numx="{{youtube_url}}" style="flex:1;"></span>  <span style="color: #28A745; letter-spacing: 2px; font-size: 1.5rem;">Likes</span>
+      </h1>
+    </div> 
+  </div>
+  <footer>
+    Made with ❤️ for
+    <a href="https://organize.mlh.io/participants/events/3480-notuniversity-hacks" target="_blank" rel="noopener noreferrer"> NotUniversity Hacks</a> | See code <a href="https://github.com/aahmad4/ViralCheck-YouTube-Algorithm-Predictor" target="_blank" rel="noopener noreferrer"> here </a>
+  </footer>
+</div>
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+  <script>
+    $(document).ready(function() {
+      var options = {  
+        useEasing: true,
+          useGrouping: true,
+          separator: ',',
+          decimal: '.',
+          prefix: '',
+          suffix: ''
+      };
+      $('.countupthis').each(function() {
+        var num = $(this).attr('numx'); //end count
+        var nuen = $(this).text();
+        if (nuen === "") {
+          nuen = 0;
+        }
+        var counts = new CountUp(this, nuen, num, 0, 1.5, options);
+        counts.start();
+      });
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% set active_page = "gallery" %}
+{% block content %}
+<div class="container card" id="contentmargin" style="padding: 30px;">
+  <h1>Gallery of Thumbnail Ideas</h1>
+  <br>
+  <div class="row text-center" style="display: flex; flex-wrap: wrap;">
+    {% for thumbnail in thumbnails %}
+    <div class="col-12 col-md-6 col-lg-4">
+      <div class="card" style="width: 100%; opacity: 1; transition: 0.35; padding: 0; margin-bottom: 20px">
+        <img src="{{thumbnail.image}}" class="card-img-top" style="">
+        <div class="card-body">
+          <h5 class="card-title">{{ thumbnail.title }}</h5>
+          <p class="card-text">By {{ thumbnail.author }} on {{ thumbnail.date_posted }}</p>
+          <!-- <a href="#" class="btn btn-outline-success">View</a> -->
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
