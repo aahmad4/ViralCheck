@@ -48,6 +48,14 @@ its too big for github.
 git clone https://github.com/aahmad4/ViralCheck-Social-Media-App
 ```
 
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 ```
 python main.py
