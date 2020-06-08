@@ -1,6 +1,8 @@
 # ViralCheck
 
-This project was done for the NotUniversity Hacks Hackathon, a competition geared towards High School students and under. Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app
+This project was done for the NotUniversity Hacks Hackathon, a competition geared towards High School students and under. Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. 
+A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app
+A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
 ## An Overview Of The Completed Product
 
