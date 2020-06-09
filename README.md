@@ -15,6 +15,7 @@ Our project consists of a web-app, whose main feature is predicting the number o
    * Registration system
    * Cryptography
    * Automated forgot password email responses
+   * Users can customize their profile settings with updated credentials and personalization
 * Machine Learning
    * Uses models built with TensorFlow, Keras, and Scikit Learn to detect how many likes a YouTube video will get
    * Currently working on a thumbnail detector
