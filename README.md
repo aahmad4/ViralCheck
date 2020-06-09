@@ -1,12 +1,14 @@
 # ViralCheck
 
 This project was done for the NotUniversity Hacks Hackathon, a competition geared towards High School students and under. Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. 
+
 A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app
+
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
 ## An Overview Of The Completed Product
 
-Our project consists of a web-app, whose main feature is predicting the number of likes a YouTube video will get, based on past and current data such as the subscriber count, title of the video, and average views. The user has to simply enter the URL of the video, and our app will automatically extract the required data, using the Youtube API v3. The other features of our web-app include a forums page to allow users with accounts to post questions, ideas, and answers, as well as a thumbnail gallery. We also built a login system, so that users can create accounts and post in the forums. On top of this, we have a special section to allow logged in users to adjust their credentials if they wish and even customize their own profile pictures.
+Our project consists of a web-app, whose main feature is predicting the how well a YouTube video will do once published, based on past and current data such as the subscriber count, title of the video, and average views. The user has to simply enter the URL of the video, and our app will automatically extract the required data, using the Youtube API v3. The other features of our web-app include a forums page to allow users with accounts to post questions, ideas, and answers, as well as a thumbnail gallery. We also built a login and registration system, so that users can create accounts and post in the forums. On top of this, we have a special section to allow logged in users to adjust their credentials if they wish and even customize their own profile pictures.
 
 ## Features
 
@@ -24,25 +26,21 @@ Our project consists of a web-app, whose main feature is predicting the number o
    
 ## How we built it
 
-##### The Machine Learning Model
+#### The Machine Learning Model
 The model takes data from the video and the youtube channel as input (such as subscriber count, average view count of the channel, number of comments, current view count, time of uploading etc.), and outputs the expected number of likes the video will get. For this prediction, we used a python-based Random Forester Regressor classifier, implemented using the sklearn library and trained using a dataset extracted from Youtube’s 8M dataset. To save the model after training, we used a .pickle file. 
 
-##### The Youtube API
+#### The Youtube API
 We wanted to make our app such that the user can predict the number of likes using only the URL of the video. For doing this, we first extracted the unique video-id from the URL. Then, we used this id to get the rest of the data using the Youtube API v3. We then fed this data into our ML model.
 
-##### Front-end
-The front-end of the web app itself is built with Flask, using templates with html and css. We used the library bootstrap and semantic UI for responsiveness and design. We are proud of the counting up animation of the likes prediction. 
+#### Front-end
+The front-end of the web app itself is using templates with HTML and CSS. We used the library Bootstrap and Semantic UI for responsiveness and some native design. We used some JavaScript on top of this for the counting up animation when printing out the number of predicted likes.
 
-##### Back-end and hosting
-We used flask and postgres for the back-end as well as encrypting libraries like bcrypt to secure users passwords. We're hosting on microsoft azure. 
-
-##### Account manager and forums
-Users are able to adjust their account details and profile picture for more customization.
+#### Back-end and hosting
+We used Flask and PostgreSQL for the back-end / databases as well as encryption libraries like Bcrypt to secure users passwords. We're currently working on hosting with Micrsoft Azure, but the most recent version is hosted on a Repl. The back-end also is what allows users to login / register accounts. There is a forgot password feature that will send an email to the users email to reset their password. Logged in users can also adjust their credentials and profile pictures in settings. Logged in users are able to post to forumn and respond to questions / messages. 
 
 
 ## Model
-Since our model was too large to upload directly on GitHub (1 Gig), we decided to upload it on dropbox and leave a link if someone wants to download and test out our app. Simply download this model and put it in the same directory as the predict.py file. Download the model pickle file here: https://www.dropbox.com/s/g2sqw4l2yoqufr8/model-final?dl=0
-its too big for github.
+Since our model was too large to upload directly on GitHub (1 Gig), we decided to upload it on dropbox and leave a link if someone wants to download and test out our app. Simply download this model and put it in the same directory as the predict.py file. Download the model pickle file here: https://www.dropbox.com/s/g2sqw4l2yoqufr8/model-final?dl=0.
 
 ## Clone
 ```
