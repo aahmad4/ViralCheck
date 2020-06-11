@@ -7,7 +7,7 @@ A link to our devpost submission can be found here: https://devpost.com/software
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
 ## Screenshot Of Home Page
-![](ViralCheck.PNG)
+![](ViralCheckPic.PNG)
 
 ## An Overview Of The Completed Product
 
