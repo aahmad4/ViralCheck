@@ -6,6 +6,9 @@ A link to our devpost submission can be found here: https://devpost.com/software
 
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
+## Screenshot Of Home Page
+![](ViralCheck.PNG)
+
 ## An Overview Of The Completed Product
 
 Our project consists of a web-app, whose main feature is predicting the how well a YouTube video will do once published, based on past and current data such as the subscriber count, title of the video, and average views. The user has to simply enter the URL of the video, and our app will automatically extract the required data, using the Youtube API v3. The other features of our web-app include a forums page to allow users with accounts to post questions, ideas, and answers, as well as a thumbnail gallery. We also built a login and registration system, so that users can create accounts and post in the forums. On top of this, we have a special section to allow logged in users to adjust their credentials if they wish and even customize their own profile pictures.
