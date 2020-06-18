@@ -6,6 +6,8 @@ A link to our devpost submission can be found here: https://devpost.com/software
 
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
+A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/
+
 ## Screenshot Of Home Page
 ![](ViralCheckPic.PNG)
 
@@ -41,6 +43,26 @@ The front-end of the web app itself is using templates with HTML and CSS. We use
 #### Back-end and hosting
 We used Flask and PostgreSQL for the back-end / databases as well as encryption libraries like Bcrypt to secure users passwords. We're currently working on hosting with Micrsoft Azure, but the most recent version is hosted on a Repl. The back-end also is what allows users to login / register accounts. There is a forgot password feature that will send an email to the users email to reset their password. Logged in users can also adjust their credentials and profile pictures in settings. Logged in users are able to post to forumn and respond to questions / messages. 
 
+## Built With
+
+* [Python 3.7.7](https://www.python.org/)
+   * [Flask](https://flask.palletsprojects.com/)
+   * [NumPy](https://numpy.org/)
+   * [Pandas](https://pandas.pydata.org/)
+   * [Pillow](https://pillow.readthedocs.io/)
+   * [Requests](https://requests.readthedocs.io/en/master/)
+   * [Scikit Learn](https://scikit-learn.org/)
+   * [TensorFlow](https://www.tensorflow.org/)
+   * [Keras](https://keras.io/)   
+   * [SciPy](https://www.scipy.org/)
+   * [Urllib3](https://urllib3.readthedocs.io/en/latest/)
+   * [PostgreSQL](https://www.postgresql.org/)
+   * [YouTube Data API v3](https://developers.google.com/youtube/v3)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3#:~:text=CSS3%20is%20the%20latest%20evolution,flexible%20box%20or%20grid%20layouts.)
+   * [Bootstrap](https://getbootstrap.com/)
+   * [Semantic UI](https://semantic-ui.com/)
+* [JavaScript](https://www.javascript.com/)
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
 ## Model
 Since our model was too large to upload directly on GitHub (1 Gig), we decided to upload it on dropbox and leave a link if someone wants to download and test out our app. Simply download this model and put it in the same directory as the predict.py file. Download the model pickle file here: https://www.dropbox.com/s/g2sqw4l2yoqufr8/model-final?dl=0.
