@@ -6,7 +6,7 @@ A link to our devpost submission can be found here: https://devpost.com/software
 
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
-A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/
+A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/ (Keep in mind that the machine learning model can't be hosted on repl due to its file size so this just has the full UI and login-functionality aspect without the ml)
 
 ## Screenshot Of Home Page
 ![](ViralCheckPic.PNG)
