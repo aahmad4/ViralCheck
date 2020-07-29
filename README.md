@@ -1,12 +1,20 @@
-# ViralCheck <img src="virallogo.png" align="right" alt="Logo">
+<p align="center">
+<img src="virallogo.png" align="" alt="Logo">
+</p>
 
+<h1 align="center">ViralCheck</h1>  
+
+<p align="center">
 This project was done for the NotUniversity Hacks Hackathon, a competition geared towards High School students and under. Due to the recent situation with the Pandemic and the large amount of free time available to most students and young adults, we thought we should try and do our part on delivering a positive difference. That’s why we created ViralCheck, to provide a social media experience for aspiring business people looking for a platform to share ideas, find inspiration, and even get creative with some of the machine learning features. 
+</p>
 
+<p align="center">
 A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app
-
+  
 A link to a small YouTube demo of the apps purpose and functionality can be seen here: https://www.youtube.com/watch?v=3txJLnwXW24&t=2s
 
 A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/ (Keep in mind that the machine learning model can't be hosted on repl due to its file size so this just has the full UI and login-functionality aspect without the ml)
+</p>
 
 ## Screenshot Of Home Page
 ![](ViralCheckPic.PNG)
