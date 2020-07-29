@@ -9,8 +9,14 @@ This project was done for the NotUniversity Hacks Hackathon, a competition geare
 </p>
 
 <p align="center">
-A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app </br>
-A link to a small demo of the apps purpose and functionality can be seen here: https://youtu.be/3txJLnwXW24 </br>
+A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app 
+</p>
+
+<p align="center">
+A link to a small demo of the apps purpose and functionality can be seen here: https://youtu.be/3txJLnwXW24 
+</p>
+
+<p align="center">
 A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/ (Keep in mind that the machine learning model can't be hosted on repl due to its file size so this just has the full UI and login-functionality aspect without the ml)
 </p>
 
