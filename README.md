@@ -9,15 +9,15 @@ This project was done for the NotUniversity Hacks Hackathon, a competition geare
 </p>
 
 <p align="center">
-A link to our devpost submission can be found here: https://devpost.com/software/viralcheck-social-media-app 
+A link to our devpost submission can be found here: <a href="https://devpost.com/software/viralcheck-social-media-app" target="_blank">devpost.com/software/viralcheck-social-media-app</a>
 </p>
 
 <p align="center">
-A link to a small demo of the apps purpose and functionality can be seen here: https://youtu.be/3txJLnwXW24 
+A link to a small demo of the apps purpose and functionality can be seen here: <a href="https://youtu.be/3txJLnwXW24" target="_blank">youtu.be/3txJLnwXW24</a>
 </p>
 
 <p align="center">
-A link to the current hosted version can be found here: https://viralcheck-1.aahmad4.repl.co/ (Keep in mind that the machine learning model can't be hosted on repl due to its file size so this just has the full UI and login-functionality aspect without the ml)
+A link to the current hosted version can be found here: <a href="https://viralcheck-1.aahmad4.repl.co" target="_blank">viralcheck-1.aahmad4.repl.co</a> (Keep in mind that the machine learning model can't be hosted on repl due to its file size so this just has the full UI and login-functionality aspect without the ml)
 </p>
 
 ## Screenshot Of Home Page
@@ -77,14 +77,16 @@ We used Flask and PostgreSQL for the back-end / databases as well as encryption 
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
 ## Model
-Since our model was too large to upload directly on GitHub (1 Gig), we decided to upload it on dropbox and leave a link if someone wants to download and test out our app. Simply download this model and put it in the same directory as the predict.py file. Download the model pickle file here: https://www.dropbox.com/s/g2sqw4l2yoqufr8/model-final?dl=0.
+Since our model was too large to upload directly on GitHub (1 Gig), we decided to upload it on dropbox and leave a link if someone wants to download and test out our app. Simply download this model and put it in the same directory as the predict.py file. Download the model pickle file [here](https://www.dropbox.com/s/g2sqw4l2yoqufr8/model-final?dl=0).
 
-## Clone
+## Setup
+
+#### Clone
 ```
-git clone https://github.com/aahmad4/ViralCheck-Social-Media-App
+git clone https://github.com/aahmad4/ViralCheck
 ```
 
-## Installation
+#### Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required packages.
 
@@ -93,6 +95,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+```
+cd ViralCheck
+```
 ```
 python main.py
 ```
